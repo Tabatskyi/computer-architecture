@@ -2,7 +2,7 @@
 module mux8_tb;
     logic [7:0] in;
     logic [2:0] sel;
-    wire y;
+    logic y;
 
     mux8 DUT (
         .in(in),

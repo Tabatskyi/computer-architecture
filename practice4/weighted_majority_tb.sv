@@ -1,7 +1,7 @@
 `timescale 1ns/1ns
 module weighted_majority_tb;
     logic [5:0] in;
-    wire        majority;
+    logic majority;
 
     weighted_majority DUT (
         .in(in),

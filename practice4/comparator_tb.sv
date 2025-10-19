@@ -3,10 +3,10 @@
 module comparator_tb;
     logic [3:0] a;
     logic [3:0] b;
-    wire less;
-    wire equal;
-    wire greater;
-    wire diff_one;
+    logic less;
+    logic equal;
+    logic greater;
+    logic diff_one;
 
     comparator DUT (
         .a(a),

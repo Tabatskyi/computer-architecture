@@ -2,7 +2,7 @@
 module piecewise_func_tb;
     logic [3:0] in1;
     logic [3:0] in2;
-    wire [7:0] out;
+    logic [7:0] out;
 
     piecewise_func DUT (
         .in1(in1),
