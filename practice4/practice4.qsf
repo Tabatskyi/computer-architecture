@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE6E22C8
-set_global_assignment -name TOP_LEVEL_ENTITY mux8
+set_global_assignment -name TOP_LEVEL_ENTITY weighted_majority
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 24.1STD.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:35:21  OCTOBER 07, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION "24.1std.0 Lite Edition"
@@ -60,7 +60,7 @@ set_global_assignment -name SYSTEMVERILOG_FILE top_tb.sv
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
-set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH mux8_tb -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH weighted_majority_tb -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME top_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id top_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME top_tb -section_id top_tb
@@ -76,14 +76,20 @@ set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id comparator_t
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME comparator_tb -section_id comparator_tb
 set_global_assignment -name VERILOG_FILE mux8.v
 set_global_assignment -name SYSTEMVERILOG_FILE mux8_tb.sv
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name EDA_TEST_BENCH_FILE top_tb.sv -section_id top_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE priority_encoder_tb.sv -section_id priority_encoder_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE comparator_tb.sv -section_id comparator_tb
 set_global_assignment -name EDA_TEST_BENCH_NAME mux8_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id mux8_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME mux8_tb -section_id mux8_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE mux8_tb.sv -section_id mux8_tb
+set_global_assignment -name VERILOG_FILE weighted_majority.v
+set_global_assignment -name SYSTEMVERILOG_FILE weighted_majority_tb.sv
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_NAME weighted_majority_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id weighted_majority_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME weighted_majority_tb -section_id weighted_majority_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE weighted_majority_tb.sv -section_id weighted_majority_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE top_tb.sv -section_id top_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE priority_encoder_tb.sv -section_id priority_encoder_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE comparator_tb.sv -section_id comparator_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE mux8_tb.sv -section_id mux8_tb
