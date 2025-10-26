@@ -1,22 +1,38 @@
-module fsm(input logic clk, reset, a,
-output logic smile);
-	typedef enum logic [1:0] {S0, S1, S2} statetype;
+module fsm(input logic clk, reset, ready, add_sub, 
+			input logic [3:0] a,
+			input logic [3:0] b,
+			output logic [3:0] out_res, out_valid);
+	typedef enum logic [1:0] {INIT, RDY, ADD, SUB} statetype;
+
 	statetype state, nextstate;
 	// state register
 	always_ff @(posedge clk, posedge reset)
-		if (reset) state <= S0;
+		if (reset) state <= INIT;
 		else state <= nextstate;
 	// next state logic
-	always_comb
+	always_comb begin
+		nextstate = state; 
+		out_valid = 1'b0;
+		out_res = '0;
+
 		case (state)
-			S0: if (a) nextstate = S0;
-				else nextstate = S1;
-			S1: if (a) nextstate = S2;
-				else nextstate = S1;
-			S2: if (a) nextstate = S0;
-				else nextstate = S1;
-			default: nextstate = S0;
+			INIT: if (ready) nextstate = RDY;
+				else nextstate = INIT;
+			RDY: if (add_sub) nextstate = ADD;
+				  else nextstate = SUB;
+
+			ADD: begin 
+				out_valid = 1'b1; 
+				out_res = a + b; 
+				nextstate = INIT;
+			end
+			SUB: begin
+				out_valid = 1'b1; 
+				out_res = a - b; 
+				nextstate = INIT;
+			end
+
+			default: nextstate = INIT;
 		endcase
-		// output logic
-	assign smile = (state == S2);
+	end
 endmodule
