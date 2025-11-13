@@ -13,6 +13,7 @@ logic [31:0] PCNext, PCPlus4, PCTarget;
 logic [31:0] ImmExt;
 logic [31:0] SrcA, SrcB;
 logic [31:0] Result;
+logic [32:0] ALUResultExt;
 // next PC logic
 flopr #(32) pcreg(clk, reset, PCNext, PC);
 adder pcadd4(PC, 32'd4, PCPlus4);
@@ -24,7 +25,15 @@ Instr[11:7], Result, SrcA, WriteData);
 extend ext(Instr[31:7], ImmSrc, ImmExt);
 // ALU logic
 mux2 #(32) srcbmux(WriteData, ImmExt, ALUSrc, SrcB);
-alu alu(SrcA, SrcB, ALUControl, ALUResult, Zero);
+alu alu_u(
+	.A(SrcA),
+	.B(SrcB),
+	.ALUControl(ALUControl),
+	.Result(ALUResultExt),
+	.Z(Zero),
+	.N(), .C(), .V()
+);
+assign ALUResult = ALUResultExt[31:0];
 mux3 #(32) resultmux(ALUResult, ReadData, PCPlus4,
 ResultSrc, Result);
 endmodule

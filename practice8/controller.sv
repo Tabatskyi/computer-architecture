@@ -13,5 +13,5 @@ logic Branch;
 maindec md(op, ResultSrc, MemWrite, Branch,
 ALUSrc, RegWrite, Jump, ImmSrc, ALUOp);
 aludec ad(op[5], funct3, funct7b5, ALUOp, ALUControl);
-assign PCSrc = Branch & Zero | Jump;
+assign PCSrc = (Branch & Zero) | Jump;
 endmodule

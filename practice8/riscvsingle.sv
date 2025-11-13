@@ -7,6 +7,7 @@ input logic [31:0] ReadData);
 logic ALUSrc, RegWrite, Jump, Zero;
 logic [1:0] ResultSrc, ImmSrc;
 logic [2:0] ALUControl;
+logic PCSrc;
 controller c(Instr[6:0], Instr[14:12], Instr[30], Zero,
 ResultSrc, MemWrite, PCSrc,
 ALUSrc, RegWrite, Jump,
