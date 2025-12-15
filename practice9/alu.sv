@@ -1,6 +1,5 @@
 module alu (
-	input logic [31:0] A,
-	input logic [31:0] B,
+	input logic [31:0] A, B,
 	input logic [2:0] ALUControl, 
 	output logic [32:0] Result,
 	output logic Z, N, C, V
@@ -39,6 +38,9 @@ module alu (
 			end
 			3'b101: begin
 				Result = {{(32-1){1'b0}}, $signed(A) < $signed(B)};
+			end
+			3'b100: begin
+				Result = A << B[4:0];
 			end
 			default: begin
 				Result = 0;

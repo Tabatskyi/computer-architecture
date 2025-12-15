@@ -2,6 +2,8 @@
 */incremental_db
 */output_files
 */simulation
+*/work
+*.sof
 *.bak
 *.qws
 *.qdf
