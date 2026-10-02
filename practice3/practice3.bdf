@@ -23,8 +23,8 @@ on the Quartus Prime software download page.
 (pin
 	(input)
 	(rect 80 8 248 24)
-	(text "INPUT" (rect 125 0 153 9)(font "Arial" (font_size 6)))
-	(text "CLK_50MHz" (rect 5 0 65 11)(font "Arial" ))
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "CLK_50MHz" (rect 5 0 67 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -34,14 +34,14 @@ on the Quartus Prime software download page.
 		(line (pt 109 4)(pt 113 8))
 		(line (pt 109 12)(pt 113 8))
 	)
-	(text "VCC" (rect 128 7 148 16)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 24 24 80 40))
 )
 (pin
 	(input)
 	(rect 80 56 248 72)
-	(text "INPUT" (rect 125 0 153 9)(font "Arial" (font_size 6)))
-	(text "reset_b" (rect 5 0 41 12)(font "Intel Clear" ))
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "reset_b" (rect 5 0 41 13)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -51,14 +51,14 @@ on the Quartus Prime software download page.
 		(line (pt 109 4)(pt 113 8))
 		(line (pt 109 12)(pt 113 8))
 	)
-	(text "VCC" (rect 128 7 148 16)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 24 72 80 88))
 )
 (pin
 	(output)
 	(rect 640 744 816 760)
-	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
-	(text "select_dig" (rect 90 0 138 12)(font "Intel Clear" ))
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "select_dig" (rect 90 0 139 13)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -74,8 +74,8 @@ on the Quartus Prime software download page.
 (pin
 	(output)
 	(rect 1008 256 1184 272)
-	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
-	(text "a_out" (rect 90 0 117 12)(font "Intel Clear" ))
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "a_out" (rect 90 0 119 13)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -91,8 +91,8 @@ on the Quartus Prime software download page.
 (pin
 	(output)
 	(rect 1008 288 1184 304)
-	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
-	(text "b_out" (rect 90 0 118 12)(font "Intel Clear" ))
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "b_out" (rect 90 0 119 13)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -108,8 +108,8 @@ on the Quartus Prime software download page.
 (pin
 	(output)
 	(rect 1008 320 1184 336)
-	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
-	(text "c_out" (rect 90 0 117 12)(font "Intel Clear" ))
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "c_out" (rect 90 0 118 13)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -125,8 +125,8 @@ on the Quartus Prime software download page.
 (pin
 	(output)
 	(rect 1008 352 1184 368)
-	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
-	(text "d_out" (rect 90 0 118 12)(font "Intel Clear" ))
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "d_out" (rect 90 0 119 13)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -142,8 +142,8 @@ on the Quartus Prime software download page.
 (pin
 	(output)
 	(rect 1008 384 1184 400)
-	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
-	(text "e_out" (rect 90 0 117 12)(font "Intel Clear" ))
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "e_out" (rect 90 0 119 13)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -159,8 +159,8 @@ on the Quartus Prime software download page.
 (pin
 	(output)
 	(rect 1008 416 1184 432)
-	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
-	(text "f_out" (rect 90 0 115 12)(font "Intel Clear" ))
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "f_out" (rect 90 0 117 13)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -176,8 +176,8 @@ on the Quartus Prime software download page.
 (pin
 	(output)
 	(rect 1008 448 1184 464)
-	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
-	(text "g_out" (rect 90 0 118 12)(font "Intel Clear" ))
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "g_out" (rect 90 0 119 13)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -193,8 +193,8 @@ on the Quartus Prime software download page.
 (pin
 	(output)
 	(rect 1008 480 1184 496)
-	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
-	(text "dp_out" (rect 90 0 124 12)(font "Intel Clear" ))
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "dp_out" (rect 90 0 126 13)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -210,8 +210,8 @@ on the Quartus Prime software download page.
 (pin
 	(output)
 	(rect 640 784 816 800)
-	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
-	(text "select_diq" (rect 90 0 139 12)(font "Intel Clear" ))
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "select_diq" (rect 90 0 139 13)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -226,8 +226,8 @@ on the Quartus Prime software download page.
 )
 (symbol
 	(rect 248 48 296 80)
-	(text "NOT" (rect 1 0 21 9)(font "Arial" (font_size 6)))
-	(text "inst" (rect 3 21 19 32)(font "Arial" ))
+	(text "NOT" (rect 1 0 22 10)(font "Arial" (font_size 6)))
+	(text "inst" (rect 3 21 23 32)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -238,8 +238,8 @@ on the Quartus Prime software download page.
 	(port
 		(pt 48 16)
 		(output)
-		(text "OUT" (rect 32 7 52 18)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 52 18)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 53 18)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 53 18)(font "Courier New" (bold))(invisible))
 		(line (pt 39 16)(pt 48 16))
 	)
 	(drawing
@@ -251,27 +251,27 @@ on the Quartus Prime software download page.
 )
 (symbol
 	(rect 416 -16 568 64)
-	(text "clk_div_50m_to_1hz" (rect 5 0 101 11)(font "Arial" ))
-	(text "inst2" (rect 8 64 32 76)(font "Intel Clear" ))
+	(text "clk_div_50m_to_1hz" (rect 5 0 111 11)(font "Arial" ))
+	(text "inst2" (rect 8 64 32 77)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "clk" (rect 0 0 12 11)(font "Arial" ))
-		(text "clk" (rect 21 27 33 38)(font "Arial" ))
+		(text "clk" (rect 0 0 16 11)(font "Arial" ))
+		(text "clk" (rect 21 27 37 38)(font "Arial" ))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "reset" (rect 0 0 23 11)(font "Arial" ))
-		(text "reset" (rect 21 43 44 54)(font "Arial" ))
+		(text "reset" (rect 0 0 27 11)(font "Arial" ))
+		(text "reset" (rect 21 43 48 54)(font "Arial" ))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 152 32)
 		(output)
-		(text "out_1hz" (rect 0 0 37 11)(font "Arial" ))
-		(text "out_1hz" (rect 100 27 137 38)(font "Arial" ))
+		(text "out_1hz" (rect 0 0 42 11)(font "Arial" ))
+		(text "out_1hz" (rect 100 27 142 38)(font "Arial" ))
 		(line (pt 152 32)(pt 136 32))
 	)
 	(drawing
@@ -280,20 +280,20 @@ on the Quartus Prime software download page.
 )
 (symbol
 	(rect 384 400 608 480)
-	(text "sev_seg_dec" (rect 5 0 67 11)(font "Arial" ))
-	(text "inst4" (rect 8 64 32 76)(font "Intel Clear" ))
+	(text "sev_seg_dec" (rect 5 0 72 11)(font "Arial" ))
+	(text "inst4" (rect 8 64 32 77)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "enc_input[3..0]" (rect 0 0 69 11)(font "Arial" ))
-		(text "enc_input[3..0]" (rect 21 27 90 38)(font "Arial" ))
+		(text "enc_input[3..0]" (rect 0 0 80 11)(font "Arial" ))
+		(text "enc_input[3..0]" (rect 21 27 101 38)(font "Arial" ))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 224 32)
 		(output)
-		(text "dec_output[7..0]" (rect 0 0 76 11)(font "Arial" ))
-		(text "dec_output[7..0]" (rect 139 27 215 38)(font "Arial" ))
+		(text "dec_output[7..0]" (rect 0 0 88 11)(font "Arial" ))
+		(text "dec_output[7..0]" (rect 139 27 227 38)(font "Arial" ))
 		(line (pt 224 32)(pt 208 32)(line_width 3))
 	)
 	(drawing
@@ -302,20 +302,20 @@ on the Quartus Prime software download page.
 )
 (symbol
 	(rect 384 488 608 568)
-	(text "sev_seg_dec" (rect 5 0 67 11)(font "Arial" ))
-	(text "inst6" (rect 8 64 32 76)(font "Intel Clear" ))
+	(text "sev_seg_dec" (rect 5 0 72 11)(font "Arial" ))
+	(text "inst6" (rect 8 64 32 77)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "enc_input[3..0]" (rect 0 0 69 11)(font "Arial" ))
-		(text "enc_input[3..0]" (rect 21 27 90 38)(font "Arial" ))
+		(text "enc_input[3..0]" (rect 0 0 80 11)(font "Arial" ))
+		(text "enc_input[3..0]" (rect 21 27 101 38)(font "Arial" ))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 224 32)
 		(output)
-		(text "dec_output[7..0]" (rect 0 0 76 11)(font "Arial" ))
-		(text "dec_output[7..0]" (rect 139 27 215 38)(font "Arial" ))
+		(text "dec_output[7..0]" (rect 0 0 88 11)(font "Arial" ))
+		(text "dec_output[7..0]" (rect 139 27 227 38)(font "Arial" ))
 		(line (pt 224 32)(pt 208 32)(line_width 3))
 	)
 	(drawing
@@ -324,8 +324,8 @@ on the Quartus Prime software download page.
 )
 (symbol
 	(rect 592 776 640 808)
-	(text "NOT" (rect 1 0 21 9)(font "Arial" (font_size 6)))
-	(text "inst1" (rect 3 21 27 33)(font "Intel Clear" ))
+	(text "NOT" (rect 1 0 22 10)(font "Arial" (font_size 6)))
+	(text "inst1" (rect 3 21 27 34)(font "Intel Clear" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -336,8 +336,8 @@ on the Quartus Prime software download page.
 	(port
 		(pt 48 16)
 		(output)
-		(text "OUT" (rect 32 7 52 18)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 52 18)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 53 18)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 53 18)(font "Courier New" (bold))(invisible))
 		(line (pt 39 16)(pt 48 16))
 	)
 	(drawing
@@ -349,41 +349,41 @@ on the Quartus Prime software download page.
 )
 (symbol
 	(rect 424 96 608 224)
-	(text "counter" (rect 5 0 51 15)(font "Intel Clear" (font_size 8)))
-	(text "inst5" (rect 8 112 32 124)(font "Intel Clear" ))
+	(text "counter" (rect 5 0 53 15)(font "Intel Clear" (font_size 8)))
+	(text "inst5" (rect 8 112 32 125)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "clk" (rect 0 0 17 15)(font "Intel Clear" (font_size 8)))
-		(text "clk" (rect 21 27 38 42)(font "Intel Clear" (font_size 8)))
+		(text "clk" (rect 0 0 16 15)(font "Intel Clear" (font_size 8)))
+		(text "clk" (rect 21 27 37 42)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "reset" (rect 0 0 29 15)(font "Intel Clear" (font_size 8)))
-		(text "reset" (rect 21 43 50 58)(font "Intel Clear" (font_size 8)))
+		(text "reset" (rect 0 0 31 15)(font "Intel Clear" (font_size 8)))
+		(text "reset" (rect 21 43 52 58)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 0 64)
 		(input)
-		(text "const_in[6..0]" (rect 0 0 80 15)(font "Intel Clear" (font_size 8)))
-		(text "const_in[6..0]" (rect 21 59 101 74)(font "Intel Clear" (font_size 8)))
+		(text "const_in[6..0]" (rect 0 0 81 15)(font "Intel Clear" (font_size 8)))
+		(text "const_in[6..0]" (rect 21 59 102 74)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
 		(pt 0 80)
 		(input)
-		(text "reset_val[6..0]" (rect 0 0 82 15)(font "Intel Clear" (font_size 8)))
-		(text "reset_val[6..0]" (rect 21 75 103 90)(font "Intel Clear" (font_size 8)))
+		(text "reset_val[6..0]" (rect 0 0 84 15)(font "Intel Clear" (font_size 8)))
+		(text "reset_val[6..0]" (rect 21 75 105 90)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
 		(pt 184 32)
 		(output)
-		(text "out[3..0]" (rect 0 0 49 15)(font "Intel Clear" (font_size 8)))
-		(text "out[3..0]" (rect 114 27 163 42)(font "Intel Clear" (font_size 8)))
+		(text "out[3..0]" (rect 0 0 51 15)(font "Intel Clear" (font_size 8)))
+		(text "out[3..0]" (rect 114 27 165 42)(font "Intel Clear" (font_size 8)))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(port
@@ -399,41 +399,41 @@ on the Quartus Prime software download page.
 )
 (symbol
 	(rect 424 240 608 368)
-	(text "counter" (rect 5 0 51 15)(font "Intel Clear" (font_size 8)))
-	(text "inst7" (rect 8 112 32 124)(font "Intel Clear" ))
+	(text "counter" (rect 5 0 53 15)(font "Intel Clear" (font_size 8)))
+	(text "inst7" (rect 8 112 32 125)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "clk" (rect 0 0 17 15)(font "Intel Clear" (font_size 8)))
-		(text "clk" (rect 21 27 38 42)(font "Intel Clear" (font_size 8)))
+		(text "clk" (rect 0 0 16 15)(font "Intel Clear" (font_size 8)))
+		(text "clk" (rect 21 27 37 42)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "reset" (rect 0 0 29 15)(font "Intel Clear" (font_size 8)))
-		(text "reset" (rect 21 43 50 58)(font "Intel Clear" (font_size 8)))
+		(text "reset" (rect 0 0 31 15)(font "Intel Clear" (font_size 8)))
+		(text "reset" (rect 21 43 52 58)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 0 64)
 		(input)
-		(text "const_in[6..0]" (rect 0 0 80 15)(font "Intel Clear" (font_size 8)))
-		(text "const_in[6..0]" (rect 21 59 101 74)(font "Intel Clear" (font_size 8)))
+		(text "const_in[6..0]" (rect 0 0 81 15)(font "Intel Clear" (font_size 8)))
+		(text "const_in[6..0]" (rect 21 59 102 74)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
 		(pt 0 80)
 		(input)
-		(text "reset_val[6..0]" (rect 0 0 82 15)(font "Intel Clear" (font_size 8)))
-		(text "reset_val[6..0]" (rect 21 75 103 90)(font "Intel Clear" (font_size 8)))
+		(text "reset_val[6..0]" (rect 0 0 84 15)(font "Intel Clear" (font_size 8)))
+		(text "reset_val[6..0]" (rect 21 75 105 90)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
 		(pt 184 32)
 		(output)
-		(text "out[3..0]" (rect 0 0 49 15)(font "Intel Clear" (font_size 8)))
-		(text "out[3..0]" (rect 114 27 163 42)(font "Intel Clear" (font_size 8)))
+		(text "out[3..0]" (rect 0 0 51 15)(font "Intel Clear" (font_size 8)))
+		(text "out[3..0]" (rect 114 27 165 42)(font "Intel Clear" (font_size 8)))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(port
@@ -449,8 +449,8 @@ on the Quartus Prime software download page.
 )
 (symbol
 	(rect 624 312 656 344)
-	(text "GND" (rect 8 16 29 25)(font "Arial" (font_size 6)))
-	(text "inst9" (rect 3 21 27 33)(font "Intel Clear" )(invisible))
+	(text "GND" (rect 8 16 30 26)(font "Arial" (font_size 6)))
+	(text "inst9" (rect 3 21 27 34)(font "Intel Clear" )(invisible))
 	(port
 		(pt 16 0)
 		(output)
@@ -466,13 +466,13 @@ on the Quartus Prime software download page.
 )
 (symbol
 	(rect 120 152 232 200)
-	(text "LPM_CONSTANT" (rect 4 0 129 15)(font "Arial" (font_size 10)))
-	(text "inst10" (rect 3 37 33 49)(font "Intel Clear" ))
+	(text "LPM_CONSTANT" (rect 4 0 127 16)(font "Arial" (font_size 10)))
+	(text "inst10" (rect 3 37 33 50)(font "Intel Clear" ))
 	(port
 		(pt 112 32)
 		(output)
-		(text "result[LPM_WIDTH-1..0]" (rect 75 19 216 32)(font "Arial" (font_size 8)))
-		(text "result[]" (rect 75 19 113 32)(font "Arial" (font_size 8)))
+		(text "result[LPM_WIDTH-1..0]" (rect 75 19 229 32)(font "Arial" (font_size 8)))
+		(text "result[]" (rect 75 19 122 32)(font "Arial" (font_size 8)))
 		(line (pt 64 32)(pt 112 32)(line_width 3))
 	)
 	(parameter
@@ -487,7 +487,7 @@ on the Quartus Prime software download page.
 		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" 
 	)
 	(drawing
-		(text "(cvalue)" (rect 21 26 68 39)(font "Arial" (font_size 8)))
+		(text "(cvalue)" (rect 21 26 74 39)(font "Arial" (font_size 8)))
 		(line (pt 16 24)(pt 64 24))
 		(line (pt 16 40)(pt 64 40))
 		(line (pt 64 40)(pt 64 24))
@@ -496,66 +496,35 @@ on the Quartus Prime software download page.
 	(annotation_block (parameter)(rect 88 104 226 149))
 )
 (symbol
-	(rect 120 248 232 296)
-	(text "LPM_CONSTANT" (rect 4 0 129 15)(font "Arial" (font_size 10)))
-	(text "inst11" (rect 3 37 33 49)(font "Intel Clear" ))
-	(port
-		(pt 112 32)
-		(output)
-		(text "result[LPM_WIDTH-1..0]" (rect 75 19 216 32)(font "Arial" (font_size 8)))
-		(text "result[]" (rect 75 19 113 32)(font "Arial" (font_size 8)))
-		(line (pt 64 32)(pt 112 32)(line_width 3))
-	)
-	(parameter
-		"LPM_CVALUE"
-		"10"
-		"Unsigned value to which outputs will be set"
-	)
-	(parameter
-		"LPM_WIDTH"
-		"7"
-		"Width of output, any integer > 0"
-		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" 
-	)
-	(drawing
-		(text "(cvalue)" (rect 21 26 68 39)(font "Arial" (font_size 8)))
-		(line (pt 16 24)(pt 64 24))
-		(line (pt 16 40)(pt 64 40))
-		(line (pt 64 40)(pt 64 24))
-		(line (pt 16 40)(pt 16 24))
-	)
-	(annotation_block (parameter)(rect 88 200 226 245))
-)
-(symbol
 	(rect 384 616 496 704)
-	(text "BUSMUX" (rect 28 0 94 15)(font "Arial" (font_size 10)))
-	(text "inst17" (rect 3 77 33 89)(font "Intel Clear" ))
+	(text "BUSMUX" (rect 28 0 95 16)(font "Arial" (font_size 10)))
+	(text "inst17" (rect 3 77 33 90)(font "Intel Clear" ))
 	(port
 		(pt 0 64)
 		(input)
-		(text "datab[WIDTH-1..0]" (rect 6 51 114 64)(font "Arial" (font_size 8)))
-		(text "datab[]" (rect 6 51 46 64)(font "Arial" (font_size 8)))
+		(text "datab[WIDTH-1..0]" (rect 6 51 127 64)(font "Arial" (font_size 8)))
+		(text "datab[]" (rect 6 51 54 64)(font "Arial" (font_size 8)))
 		(line (pt 0 64)(pt 44 64)(line_width 3))
 	)
 	(port
 		(pt 56 88)
 		(input)
-		(text "sel" (rect 59 70 76 83)(font "Arial" (font_size 8)))
-		(text "sel" (rect 59 70 76 83)(font "Arial" (font_size 8)))
+		(text "sel" (rect 59 70 77 83)(font "Arial" (font_size 8)))
+		(text "sel" (rect 59 70 77 83)(font "Arial" (font_size 8)))
 		(line (pt 56 88)(pt 56 72))
 	)
 	(port
 		(pt 0 32)
 		(input)
-		(text "dataa[WIDTH-1..0]" (rect 6 19 114 32)(font "Arial" (font_size 8)))
-		(text "dataa[]" (rect 6 19 46 32)(font "Arial" (font_size 8)))
+		(text "dataa[WIDTH-1..0]" (rect 6 19 127 32)(font "Arial" (font_size 8)))
+		(text "dataa[]" (rect 6 19 54 32)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 44 32)(line_width 3))
 	)
 	(port
 		(pt 112 48)
 		(output)
-		(text "result[WIDTH-1..0]" (rect 75 35 182 48)(font "Arial" (font_size 8)))
-		(text "result[]" (rect 75 35 113 48)(font "Arial" (font_size 8)))
+		(text "result[WIDTH-1..0]" (rect 75 35 196 48)(font "Arial" (font_size 8)))
+		(text "result[]" (rect 75 35 122 48)(font "Arial" (font_size 8)))
 		(line (pt 68 48)(pt 112 48)(line_width 3))
 	)
 	(parameter
@@ -565,8 +534,8 @@ on the Quartus Prime software download page.
 		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" "40" "48" "56" "64" 
 	)
 	(drawing
-		(text "0" (rect 52 31 57 40)(font "Arial" (font_size 6)))
-		(text "1" (rect 52 55 57 64)(font "Arial" (font_size 6)))
+		(text "0" (rect 52 31 59 41)(font "Arial" (font_size 6)))
+		(text "1" (rect 52 55 59 65)(font "Arial" (font_size 6)))
 		(line (pt 68 64)(pt 68 32))
 		(line (pt 44 80)(pt 44 16))
 		(line (pt 44 16)(pt 68 32))
@@ -576,33 +545,64 @@ on the Quartus Prime software download page.
 )
 (symbol
 	(rect 216 720 376 800)
-	(text "clk_div_50m_to_500hz" (rect 5 0 113 11)(font "Arial" ))
-	(text "inst8" (rect 8 64 32 76)(font "Intel Clear" ))
+	(text "clk_div_50m_to_500hz" (rect 5 0 124 11)(font "Arial" ))
+	(text "inst8" (rect 8 64 32 77)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "clk" (rect 0 0 12 11)(font "Arial" ))
-		(text "clk" (rect 21 27 33 38)(font "Arial" ))
+		(text "clk" (rect 0 0 16 11)(font "Arial" ))
+		(text "clk" (rect 21 27 37 38)(font "Arial" ))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "reset" (rect 0 0 23 11)(font "Arial" ))
-		(text "reset" (rect 21 43 44 54)(font "Arial" ))
+		(text "reset" (rect 0 0 27 11)(font "Arial" ))
+		(text "reset" (rect 21 43 48 54)(font "Arial" ))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 160 32)
 		(output)
-		(text "out_500hz" (rect 0 0 49 11)(font "Arial" ))
-		(text "out_500hz" (rect 98 27 147 38)(font "Arial" ))
+		(text "out_500hz" (rect 0 0 55 11)(font "Arial" ))
+		(text "out_500hz" (rect 98 27 153 38)(font "Arial" ))
 		(line (pt 160 32)(pt 144 32))
 	)
 	(drawing
 		(rectangle (rect 16 16 144 64))
 	)
 )
+(symbol
+	(rect 120 248 232 296)
+	(text "LPM_CONSTANT" (rect 4 0 127 16)(font "Arial" (font_size 10)))
+	(text "inst11" (rect 3 37 33 50)(font "Intel Clear" ))
+	(port
+		(pt 112 32)
+		(output)
+		(text "result[LPM_WIDTH-1..0]" (rect 75 19 229 32)(font "Arial" (font_size 8)))
+		(text "result[]" (rect 75 19 122 32)(font "Arial" (font_size 8)))
+		(line (pt 64 32)(pt 112 32)(line_width 3))
+	)
+	(parameter
+		"LPM_CVALUE"
+		"9"
+		"Unsigned value to which outputs will be set"
+	)
+	(parameter
+		"LPM_WIDTH"
+		"7"
+		"Width of output, any integer > 0"
+		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" 
+	)
+	(drawing
+		(text "(cvalue)" (rect 21 26 74 39)(font "Arial" (font_size 8)))
+		(line (pt 16 24)(pt 64 24))
+		(line (pt 16 40)(pt 64 40))
+		(line (pt 64 40)(pt 64 24))
+		(line (pt 16 40)(pt 16 24))
+	)
+	(annotation_block (parameter)(rect 88 200 231 239))
+)
 (connector
 	(pt 752 264)
 	(pt 752 296)
@@ -629,42 +629,42 @@ on the Quartus Prime software download page.
 	(bus)
 )
 (connector
-	(text "seg_in[7]" (rect 762 248 806 260)(font "Intel Clear" ))
+	(text "seg_in[7]" (rect 762 248 806 261)(font "Intel Clear" ))
 	(pt 1008 264)
 	(pt 752 264)
 )
 (connector
-	(text "seg_in[6]" (rect 762 280 806 292)(font "Intel Clear" ))
+	(text "seg_in[6]" (rect 762 280 806 293)(font "Intel Clear" ))
 	(pt 1008 296)
 	(pt 752 296)
 )
 (connector
-	(text "seg_in[5]" (rect 762 312 806 324)(font "Intel Clear" ))
+	(text "seg_in[5]" (rect 762 312 806 325)(font "Intel Clear" ))
 	(pt 1008 328)
 	(pt 752 328)
 )
 (connector
-	(text "seg_in[4]" (rect 762 344 806 356)(font "Intel Clear" ))
+	(text "seg_in[4]" (rect 762 344 806 357)(font "Intel Clear" ))
 	(pt 1008 360)
 	(pt 752 360)
 )
 (connector
-	(text "seg_in[3]" (rect 762 376 806 388)(font "Intel Clear" ))
+	(text "seg_in[3]" (rect 762 376 806 389)(font "Intel Clear" ))
 	(pt 1008 392)
 	(pt 752 392)
 )
 (connector
-	(text "seg_in[2]" (rect 762 408 806 420)(font "Intel Clear" ))
+	(text "seg_in[2]" (rect 762 408 806 421)(font "Intel Clear" ))
 	(pt 1008 424)
 	(pt 752 424)
 )
 (connector
-	(text "seg_in[1]" (rect 762 440 806 452)(font "Intel Clear" ))
+	(text "seg_in[1]" (rect 762 440 806 453)(font "Intel Clear" ))
 	(pt 752 456)
 	(pt 1008 456)
 )
 (connector
-	(text "seg_in[0]" (rect 762 472 806 484)(font "Intel Clear" ))
+	(text "seg_in[0]" (rect 762 472 806 485)(font "Intel Clear" ))
 	(pt 1008 488)
 	(pt 752 488)
 )
@@ -684,19 +684,19 @@ on the Quartus Prime software download page.
 	(bus)
 )
 (connector
-	(text "seg_in[7..0]" (rect 736 607 748 662)(font "Intel Clear" )(vertical))
+	(text "seg_in[7..0]" (rect 736 607 749 663)(font "Intel Clear" )(vertical))
 	(pt 752 488)
 	(pt 752 664)
 	(bus)
 )
 (connector
-	(text "seg_out1[7..0]" (rect 322 632 391 644)(font "Intel Clear" ))
+	(text "seg_out1[7..0]" (rect 322 632 392 645)(font "Intel Clear" ))
 	(pt 320 648)
 	(pt 384 648)
 	(bus)
 )
 (connector
-	(text "seg_out2[7..0]" (rect 322 664 391 676)(font "Intel Clear" ))
+	(text "seg_out2[7..0]" (rect 322 664 392 677)(font "Intel Clear" ))
 	(pt 384 680)
 	(pt 320 680)
 	(bus)
@@ -758,7 +758,7 @@ on the Quartus Prime software download page.
 	(pt 352 64)
 )
 (connector
-	(text "seg_out2[7..0]" (rect 618 504 687 516)(font "Intel Clear" ))
+	(text "seg_out2[7..0]" (rect 618 504 688 517)(font "Intel Clear" ))
 	(pt 672 520)
 	(pt 608 520)
 	(bus)
@@ -800,19 +800,19 @@ on the Quartus Prime software download page.
 	(pt 640 312)
 )
 (connector
-	(text "out1[3..0]" (rect 616 112 663 124)(font "Intel Clear" ))
+	(text "out1[3..0]" (rect 616 112 664 125)(font "Intel Clear" ))
 	(pt 608 128)
 	(pt 640 128)
 	(bus)
 )
 (connector
-	(text "out2[3..0]" (rect 320 504 367 516)(font "Intel Clear" ))
+	(text "out2[3..0]" (rect 320 504 368 517)(font "Intel Clear" ))
 	(pt 336 520)
 	(pt 384 520)
 	(bus)
 )
 (connector
-	(text "out2[3..0]" (rect 616 256 663 268)(font "Intel Clear" ))
+	(text "out2[3..0]" (rect 616 256 664 269)(font "Intel Clear" ))
 	(pt 608 272)
 	(pt 640 272)
 	(bus)
@@ -838,13 +838,13 @@ on the Quartus Prime software download page.
 	(bus)
 )
 (connector
-	(text "seg_out1[7..0]" (rect 618 416 687 428)(font "Intel Clear" ))
+	(text "seg_out1[7..0]" (rect 618 416 688 429)(font "Intel Clear" ))
 	(pt 608 432)
 	(pt 672 432)
 	(bus)
 )
 (connector
-	(text "out1[3..0]" (rect 320 416 367 428)(font "Intel Clear" ))
+	(text "out1[3..0]" (rect 320 416 368 429)(font "Intel Clear" ))
 	(pt 336 432)
 	(pt 384 432)
 	(bus)
